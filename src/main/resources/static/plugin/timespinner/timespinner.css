@@ -1,0 +1,213 @@
+.ui-timespinner {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 1.6em; /* 28px; */
+}
+
+.ui-timespinner-value {
+  display: none;
+
+  /*
+  This is for debugging only:
+
+  If you set the above to display:block,
+  the original element should appear right above the spinner
+  */
+  position: absolute;
+  top: -10px;
+  height: 8px;
+  line-height: 8px;
+  font-size: 8px !important;
+  width:8ch;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+span.ui-timespinner-ampm {
+  display: none;
+}
+
+.ui-timespinner-ampm span.ui-timespinner-ampm {
+  display: block;
+}
+
+span.ui-timespinner-hh,
+span.ui-timespinner-mm,
+span.ui-timespinner-ampm {
+  height: 1.6em;
+}
+
+
+.ui-timespinner .ui-spinner {
+  position: absolute;
+  border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  overflow: visible;
+}
+
+.ui-timespinner .ui-spinner-input {
+  width: 2ch;
+  padding: 0;
+  margin: 0.2em;
+}
+
+.ui-timespinner-colon {
+  position: absolute;
+  width: 1ch;
+  padding: 0;
+  margin: 0.2em;
+  left: 2.5ch;
+  z-index: 10;
+}
+
+.ui-state-disabled .ui-timespinner-colon {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+  background-image: none;
+}
+
+
+.ui-timespinner {
+  width: 8ch;
+  min-width: 8ch;
+}
+
+.ui-timespinner.ui-timespinner-ampm {
+  width: 11ch;
+  min-width: 11ch;
+}
+
+.ui-timespinner .ui-spinner-button {
+  width: 1.6ch;
+}
+
+span.ui-timespinner-hh {
+    left: 0;
+}
+
+.ui-timespinner-hh .ui-spinner-button {
+    right: -7.6ch;
+}
+.ui-timespinner-ampm .ui-timespinner-hh .ui-spinner-button {
+    right: -10.4ch;
+}
+
+span.ui-timespinner-mm {
+    left: 3.3ch;
+}
+
+.ui-timespinner-mm .ui-spinner-button {
+    right: -4.8ch;
+}
+.ui-timespinner-ampm .ui-timespinner-mm .ui-spinner-button {
+    right: -7.6ch;
+}
+
+span.ui-timespinner-ampm {
+    left: 5.7ch;
+}
+
+.ui-timespinner .ui-spinner-input.ui-timespinner-ampm {
+    width: 2.6ch;
+}
+
+.ui-timespinner-ampm .ui-spinner-button {
+    right: -7.6ch;
+}
+.ui-timespinner-ampm .ui-timespinner-ampm .ui-spinner-button {
+    right: -5.4ch;
+}
+
+
+
+
+input.ui-timespinner-hh,
+input.ui-timespinner-mm,
+input.ui-timespinner-ampm {
+  position: absolute;
+  border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  overflow: visible;
+  z-index: 2;
+}
+
+.ui-timespinner .ui-spinner.ui-timespinner-ampm a.ui-spinner-button {
+  display:block;
+  margin-right: 5px;
+}
+
+.ui-timespinner .ui-spinner.ui-timespinner-mm a.ui-spinner-button {
+  display:block;
+  margin-right: 4px;
+}
+
+.ui-timespinner .ui-spinner a.ui-spinner-up {
+  margin-top:-1px;
+}
+
+.ui-timespinner .ui-spinner a.ui-spinner-down {
+  margin-bottom:1px;
+}
+
+input.ui-timespinner-hh,
+input.ui-timespinner-mm,
+input.ui-timespinner-ampm {
+  position: absolute;
+  border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  overflow: visible;
+  z-index: 2;
+}
+
+input.ui-timespinner-hh {
+  text-align: right;
+}
+
+input.ui-timespinner-mm {
+  text-align: left;
+}
+
+input.ui-timespinner-colon {
+  text-align: center;
+}
+
+input.ui-timespinner-ampm {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* non essential styles */
+body {
+  font-family: Arial;
+}
+
+button {
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+div.notes {
+  font-size: 1em;
+}
+
+div.notes li {
+  line-height: 1.8em;
+}
+
+table.example {
+  border-spacing: 10px;
+}

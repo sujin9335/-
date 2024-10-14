@@ -1,0 +1,98 @@
+
+.form-control {
+    &:disabled, &[readonly] {
+      background-color: #191c23;
+      opacity: 1;
+    }
+  }
+
+  
+.form-control {
+    display: block;
+    height: calc(1.5em + .9rem + 5px);
+    padding: .45rem .9rem;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #a8b5c3;
+    background-color: #191c23;
+    background-clip: padding-box;
+    border: 1px solid #363c42;
+    border-radius: 5px;
+    -moz-appearance: none;
+    appearance: auto;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  
+    &:focus {
+      color: #fff;
+      background-color: #252831;
+      border-color: #80bdff;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+  }
+  
+
+
+
+// .form-group {
+//   margin-bottom: 1rem;
+// }
+
+
+
+.form-title {
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 2px solid #4e535f;
+  margin-bottom: 5px;
+  background: #363f4d;
+  border-radius: 10px;
+}
+
+.form-setup {
+  margin-bottom: 1px;
+  border-bottom: 1px solid #2c323c;
+  padding: 5px;
+
+  &:last-child {
+    border-bottom: 0px solid #2c323c;
+  }
+}
+
+.col-form-label {
+  padding-top: calc(.45rem + 1px);
+  padding-bottom: calc(.45rem + 1px);
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1.5;
+  background: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  font-size: 14px;
+}
+
+
+
+.form-control2 {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .9rem + 2px);
+  padding: .45rem .9rem;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a8b5c3;
+  background-color: #191c23;
+  background-clip: padding-box;
+  border: 1px solid #363c42;
+  border-radius: .2rem;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}

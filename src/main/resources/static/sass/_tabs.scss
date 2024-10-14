@@ -1,0 +1,94 @@
+
+.nav-tabs {
+  .nav-item.show .nav-link, .nav-link.active {
+    color: #fff;
+    background-color: #485561;
+    border-color: #485561;
+  }
+
+  > li > a {
+    color: #98a6ad;
+    font-weight: 600;
+  }
+}
+
+.nav-pills > li > a {
+  color: #98a6ad;
+  font-weight: 600;
+}
+
+.ui-tabs {
+  position: relative;
+
+  /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+  padding: .2em;
+
+  .ui-tabs-nav {
+    margin: 0;
+    padding: 10px 30px 0px;
+
+    li {
+      list-style: none;
+      float: left;
+      position: relative;
+      top: 0;
+      margin: 1px .2em 0 0;
+      border-bottom-width: 0;
+      padding: 8px 20px;
+      white-space: nowrap;
+      border-radius: 5px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .ui-tabs-anchor {
+      float: left;
+      padding: .5em 1em;
+      text-decoration: none;
+    }
+
+    li {
+      &.ui-tabs-active {
+        margin-bottom: -1px;
+        padding-bottom: 1px;
+
+        .ui-tabs-anchor {
+          cursor: text;
+        }
+      }
+
+      &.ui-state-disabled .ui-tabs-anchor, &.ui-tabs-loading .ui-tabs-anchor {
+        cursor: text;
+      }
+    }
+  }
+}
+
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-panel {
+  display: block;
+  border-width: 0;
+  padding: 1em 1.4em;
+  background: none;
+}
+
+.tabs-bordered {
+  li a {
+    border: 0 !important;
+    padding: 10px 20px !important;
+
+    &:hover, &:focus {
+      border: 0 !important;
+      padding: 10px 20px !important;
+    }
+
+    &.active {
+      border-bottom: 2px solid #3bafda !important;
+    }
+  }
+
+  border-bottom: 2px solid rgba(152, 166, 173, 0.2) !important;
+}

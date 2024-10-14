@@ -1,0 +1,93 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, form, fieldset, legend, textarea, input, select, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 1600px;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 99%;
+}
+
+* {
+  font-family: "notom",Helvetica,Arial,sans-serif;
+}
+
+body {
+  position: relative;
+  font-family: "notom",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -.3px;
+  color: #cacaca;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+fieldset, li, img {
+  vertical-align: top;
+  border: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+input, button, select, textarea {
+  font-family: 'notom',sans-serif;
+  letter-spacing: -.4px;
+}
+
+button {
+  overflow: visible;
+  font-size: 12px;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+address, caption, em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #00b6ff;
+
+  &:focus, &:active, &:hover {
+    text-decoration: none;
+    color: #00b6ff;
+  }
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}

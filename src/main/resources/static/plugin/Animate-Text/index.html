@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery Descrambler Plugin Demo</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="dist/descrambler.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body { font-family:'Roboto Condensed'}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="input-section">
+      <input type="text" class="input" placeholder="Type Stuff. Press Enter." maxlength=15>
+      <div class="buttons-box">
+        <div class="input button" value="scramble">scramble</div>
+        <div class="input button" value="options">options</div>
+      </div>
+      <div class="options-box">
+        <div class="options-group">
+          <label for="duration">duration</label>
+          <br>
+          <input type="range" class="duration" value="3000" min="200" max="20000">
+          <br>
+          <label for="interval">interval</label>
+          <br>
+          <input type="range" class="interval" value="20" min="5" max="1000">
+          <br>
+          <form class="radio-buttons">
+            <label for="uppercase">uppercase</label>
+            <br>
+            <input type="radio" name="uppercase" value="true" checked="checked">true</br>
+            <input type="radio" name="uppercase" value="false">false</br>
+          </form>
+        </div>
+        <div class="options-group">
+          <form class="radio-buttons">
+            <label for="character-set">character set</label><br>
+            <input type="radio" name="character-set" value="all">all<br>
+            <input type="radio" name="character-set" value="alphabet" checked="checked">alphabet<br>
+            <input type="radio" name="character-set" value="numbers">numbers<br>
+            <input type="radio" name="character-set" value="alphanumeric">alphanumeric<br>
+            <input type="radio" name="character-set" value="punctuation">punctuation<br>
+          </form>
+        </div>
+      </div>
+      <p class="notice"></p>
+    </div>
+    <p class="scramble">Text deScrambler</p>
+   
+  </div>
+  <div class="badger-info">
+    <a class="portfolio" target="_blank" href="http://www.cjbarnaby.com.au" rel="nofollow">cjbarnaby.com.au</a>
+  </div>
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>

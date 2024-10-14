@@ -1,0 +1,78 @@
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="236px" height="130px" viewBox="0 0 236 130">
+	<defs>
+		<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="641.95" y1="469.1875" x2="641.95" y2="385.4125" spreadMethod="pad">
+			<stop  offset="0%" stop-color="#2F60AC"/>
+			<stop  offset="100%" stop-color="#FDFCEA" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="572.025" y1="370.175" x2="708.1750000000001" y2="479.925" spreadMethod="pad">
+			<stop  offset="0%" stop-color="#3D77BD" stop-opacity="0"/>
+			<stop  offset="100%" stop-color="#2550A2"/>
+		</linearGradient>
+		<linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="186.25" y1="1000.775" x2="186.25" y2="943.525" spreadMethod="pad">
+			<stop  offset="0%" stop-color="#2F60AC"/>
+			<stop  offset="100%" stop-color="#FDFCEA" stop-opacity="0"/>
+		</linearGradient>
+		<g id="layer_f">
+			<path fill="#FFFFFF" stroke="none" d="M 0 0 L 0 140.95 119 140.95 119 0 0 0 Z"/>
+		</g>
+		<g id="layer_f2">
+			<path fill="url(#gradient_2)" stroke="none" d="M 760.05 424.2 Q 759.86328125 422.039453125 758.75 420 L 728.5 420 Q 730.5 422.114453125 730.5 424.2 730.5 433.45 703.45 440.1 676.55 446.65 639.6 446.65 602.6 446.65 575.75 440.1 548.7 433.45 548.7 424.2 548.7 418.25 565.55 411.8 L 539.2 407.35 Q 529.5 411 524.4 415.25 519.15 419.6 519.15 424.2 519.15 430.5 528.6 437.25 538 444 554.4 449.6 591.85 462.35 639.6 462.35 690.9 462.35 725.6 451.85 761.65 440.95 760.05 424.2 Z"/>
+		</g>
+
+		<path id="layer_s" stroke="url(#gradient_1)" stroke-width="1" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" fill="none" d=" M 512.75 427.3 Q 512.75 418.9 522.9 411.2 532.7 403.75 550.6 398.05 588.45 385.9 641.95 385.9 695.5 385.9 733.35 398.05 751.2 403.75 761 411.2 771.15 418.9 771.15 427.3 771.15 435.7 761 443.4 751.2 450.85 733.35 456.55 695.5 468.7 641.95 468.7 588.45 468.7 550.6 456.55 532.7 450.85 522.9 443.4 512.75 435.7 512.75 427.3 Z"/>
+		<path id="layer_s2" stroke="url(#gradient_3)" stroke-width="1" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" fill="none" d=" M 98.45 972.15 Q 98.45 960.5 124.15 952.25 149.9 944 186.25 944 222.65 944 248.35 952.25 274.1 960.5 274.1 972.15 274.1 983.8 248.35 992 222.6 1000.25 186.25 1000.25 149.9 1000.25 124.15 992 98.45 983.8 98.45 972.15 Z"/>
+	</defs>
+
+	
+	<g transform="matrix( 0.9046173095703125, 0, 0, 0.9046173095703125, 116.35,0.45) ">
+		<g transform="matrix( 1, 0, 0, 1, -639.35,-362) ">
+			<use xlink:href="#layer_s"/>
+		</g>
+
+
+		<mask id="mask_1">
+			<g transform="matrix( 1.165283203125, 0, 0, 1, -128.3,0.25)" class="mask_1">
+				<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+					<use xlink:href="#layer_f"/>
+				</g>
+			</g>
+		</mask>
+		
+		<g mask="url(#mask_1)">
+			<g transform="matrix( 1, 0, 0, 1, -640,-360) ">
+				<use xlink:href="#layer_f2"/>
+			</g>
+		</g>
+		<g transform="matrix( 1, 0, 0, 1, 3.5,0.3) ">
+			<g transform="matrix( 1.2911376953125, 0, 0, 1.2911376953125, -92.2,25.55) ">
+				<clipPath id="mask_2">
+					<rect x="42.3" y="-2" width="159.4" height="31.6" fill="#FFFFFF" stroke="none"/>
+				</clipPath>
+				<text clip-path="url(#mask_2)" writing-mode="lr">
+					<tspan x="44.35" y="22.1" baseline-shift="0%" font-family="나눔고딕 ExtraBold" font-weight="bold" font-size="24" fill="#0099FF" xml:space="preserve">50%</tspan>
+				</text>
+			</g>
+		</g>
+		<g transform="matrix( 1, 0, 0, 1, -187,-921.25) ">
+			<use xlink:href="#layer_s2"/>
+		</g>
+	</g>
+	
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

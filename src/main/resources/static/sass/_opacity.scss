@@ -1,0 +1,1231 @@
+
+.opacity05 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(42, 42, 42, 0.3);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(90, 90, 90, 0);
+      border: 1px solid rgba(120, 120, 120, 0);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(90, 90, 90, 0);
+    border: 1px solid rgba(120, 120, 120, 0);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0);
+      border-color: rgba(73, 73, 73, 0);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 73, 73, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity05.table th {
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity05.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity05.table th {
+  background-color: rgba(52, 58, 64, 0);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity05.ui-widget-content .card-box .table-dark, .table-dark.opacity05 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity05 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(42, 42, 42, 0);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(90, 90, 90, 0.1);
+      border: 1px solid rgba(120, 120, 120, 0);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(90, 90, 90, 0.1);
+    border: 1px solid rgba(120, 120, 120, 0);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.1);
+      border-color: rgba(73, 73, 73, 0);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 73, 73, 0);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 73, 73, 0);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.3) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.3) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0);
+  }
+}
+
+.opacity10 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(42, 42, 42, 0.1);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(90, 90, 90, 0.1);
+      border: 1px solid rgba(120, 120, 120, 0.1);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(90, 90, 90, 0.1);
+    border: 1px solid rgba(120, 120, 120, 0.1);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.1);
+      border-color: rgba(73, 73, 73, 0.1);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.1);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 73, 73, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity10.table th {
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity10.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity10.table th {
+  background-color: rgba(52, 58, 64, 0.1);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity10.ui-widget-content .card-box .table-dark, .table-dark.opacity10 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity10 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(42, 42, 42, 0.1);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(90, 90, 90, 0.1);
+      border: 1px solid rgba(120, 120, 120, 0.1);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(90, 90, 90, 0.1);
+    border: 1px solid rgba(120, 120, 120, 0.1);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.1);
+      border-color: rgba(73, 73, 73, 0.1);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.1);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 73, 73, 0.1);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 73, 73, 0.1);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.1) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.1) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.1) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.1) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.1) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.1) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.1);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.1);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.1);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 0.4);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.2);
+    }
+  }
+}
+
+.opacity20 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(44, 51, 64, 0.2);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.2);
+      border: 1px solid rgba(67, 92, 138, 0.2);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.2);
+    border: 1px solid rgba(67, 92, 138, 0.2);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.2);
+      border-color: rgba(73, 85, 97, 0.2);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.2);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 85, 97, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity20.table th {
+  border: 1px solid rgba(73, 85, 97, 0);
+}
+
+.opacity20.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity20.table th {
+  background-color: rgba(52, 58, 64, 0.2);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity20.ui-widget-content .card-box .table-dark, .table-dark.opacity20 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity20 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(56, 60, 71, 0.2);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.2);
+      border: 1px solid rgba(67, 92, 138, 0.2);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.2);
+    border: 1px solid rgba(67, 92, 138, 0.2);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.2);
+      border-color: rgba(73, 85, 97, 0.2);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.2);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 85, 97, 0.2);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 85, 97, 0.2);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.2) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.2) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.2) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.2) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.2) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.2) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.2) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.2) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.2);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.2);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.2);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 0.5);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.3);
+    }
+  }
+}
+
+.opacity30 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(44, 51, 64, 0.3);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.3);
+      border: 1px solid rgba(67, 92, 138, 0.3);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.3);
+    border: 1px solid rgba(67, 92, 138, 0.3);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.3);
+      border-color: rgba(73, 85, 97, 0.3);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.3);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 85, 97, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity30.table th {
+  border: 1px solid rgba(73, 85, 97, 0);
+}
+
+.opacity30.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity30.table th {
+  background-color: rgba(52, 58, 64, 0.3);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity30.ui-widget-content .card-box .table-dark, .table-dark.opacity30 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity30 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(56, 60, 71, 0.3);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.3);
+      border: 1px solid rgba(67, 92, 138, 0.3);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.3);
+    border: 1px solid rgba(67, 92, 138, 0.3);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.3);
+      border-color: rgba(73, 85, 97, 0.3);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.3);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 85, 97, 0.3);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 85, 97, 0.3);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.3) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.3) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.3) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.3) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.3) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.3) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.3) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.3) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.3);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.3);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.3);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 0.6);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.4);
+    }
+  }
+}
+
+.opacity40 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(44, 51, 64, 0.4);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.4);
+      border: 1px solid rgba(67, 92, 138, 0.4);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.4);
+    border: 1px solid rgba(67, 92, 138, 0.4);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.4);
+      border-color: rgba(73, 85, 97, 0.4);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.4);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 85, 97, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity20.table th {
+  border: 1px solid rgba(73, 85, 97, 0);
+}
+
+.opacity40.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity40.table th {
+  background-color: rgba(52, 58, 64, 0.4);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity40.ui-widget-content .card-box .table-dark, .table-dark.opacity40 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity40 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(56, 60, 71, 0.4);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.4);
+      border: 1px solid rgba(67, 92, 138, 0.4);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.4);
+    border: 1px solid rgba(67, 92, 138, 0.4);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.4);
+      border-color: rgba(73, 85, 97, 0.4);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.4);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 85, 97, 0.4);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 85, 97, 0.4);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+    border: 1px solid rgba(24, 153, 195, 0.4) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.4) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.4) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.4) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.4) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.4) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.4) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.4) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.4) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.4);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.4);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.4);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 0.7);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.5);
+    }
+  }
+}
+
+.opacity50 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(44, 51, 64, 0.5);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.5);
+      border: 1px solid rgba(67, 92, 138, 0.5);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.5);
+    border: 1px solid rgba(67, 92, 138, 0.5);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.5);
+      border-color: rgba(73, 85, 97, 0.5);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.5);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 85, 97, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity50.table th {
+  border: 1px solid rgba(73, 85, 97, 0);
+}
+
+.opacity50.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity50.table th {
+  background-color: rgba(52, 58, 64, 0.5);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity50.ui-widget-content .card-box .table-dark, .table-dark.opacity50 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity50 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(56, 60, 71, 0.5);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.5);
+      border: 1px solid rgba(67, 92, 138, 0.5);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.5);
+    border: 1px solid rgba(67, 92, 138, 0.5);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.5);
+      border-color: rgba(73, 85, 97, 0.5);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.5);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 85, 97, 0.5);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 85, 97, 0.5);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.5) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.5) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.5) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.5) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.5) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.5) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.5) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.5) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.5);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.5);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.5);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 0.8);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.6);
+    }
+  }
+}
+
+.opacity60 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(44, 51, 64, 0.6);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.6);
+      border: 1px solid rgba(67, 92, 138, 0.6);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.6);
+    border: 1px solid rgba(67, 92, 138, 0.6);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.6);
+      border-color: rgba(73, 85, 97, 0.6);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.6);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 85, 97, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity60.table th {
+  border: 1px solid rgba(73, 85, 97, 0);
+}
+
+.opacity60.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity60.table th {
+  background-color: rgba(52, 58, 64, 0.6);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity60.ui-widget-content .card-box .table-dark, .table-dark.opacity60 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity60 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(56, 60, 71, 0.6);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.6);
+      border: 1px solid rgba(67, 92, 138, 0.6);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.6);
+    border: 1px solid rgba(67, 92, 138, 0.6);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.6);
+      border-color: rgba(73, 85, 97, 0.6);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.6);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 85, 97, 0.6);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 85, 97, 0.6);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.6) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.6) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.6) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.6) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.6) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.6) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.6) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.6) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.6);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.6);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.6);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 0.9);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.7);
+    }
+  }
+}
+
+.opacity70 {
+  &.ui-widget-content .card-box {
+    .header-title {
+      background: rgba(44, 51, 64, 0.7);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.7);
+      border: 1px solid rgba(67, 92, 138, 0.7);
+    }
+  }
+
+  &.card-box .pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.7);
+    border: 1px solid rgba(67, 92, 138, 0.7);
+  }
+
+  &.ui-widget-content .card-box {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.7);
+      border-color: rgba(73, 85, 97, 0.7);
+    }
+
+    .table-striped {
+      tbody tr:nth-of-type(odd) {
+        background: rgba(47, 47, 47, 0.7);
+      }
+
+      &.table td {
+        border: 1px solid rgba(73, 85, 97, 0);
+      }
+    }
+  }
+}
+
+.table-striped.opacity70.table th {
+  border: 1px solid rgba(73, 85, 97, 0);
+}
+
+.opacity70.ui-widget-content .card-box .table-dark.table td, .table-dark.opacity70.table th {
+  background-color: rgba(52, 58, 64, 0.7);
+  border: 1px solid rgba(73, 73, 73, 0);
+}
+
+.opacity70.ui-widget-content .card-box .table-dark, .table-dark.opacity70 {
+  background-color: rgba(52, 58, 64, 0);
+}
+
+.opacity70 {
+  &.ui-widget-content {
+    .header-title {
+      background: rgba(56, 60, 71, 0.7);
+    }
+
+    .pagination > li > a {
+      background-color: rgba(48, 67, 90, 0.7);
+      border: 1px solid rgba(67, 92, 138, 0.7);
+    }
+  }
+
+  &.pagination > li > span {
+    background-color: rgba(48, 67, 90, 0.7);
+    border: 1px solid rgba(67, 92, 138, 0.7);
+  }
+
+  &.ui-widget-content {
+    .table .thead-dark th {
+      background: rgba(31, 31, 31, 0.7);
+      border-color: rgba(73, 85, 97, 0.7);
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background: rgba(47, 47, 47, 0.7);
+    }
+
+    .table td {
+      border-top: 1px solid rgba(73, 85, 97, 0.7);
+    }
+  }
+
+  &.table th {
+    border-top: 1px solid rgba(73, 85, 97, 0.7);
+  }
+
+  &.dash {
+    background-color: rgba(24, 153, 195, 0.1) !important;
+
+    .header-title {
+      background: rgba(42, 57, 68, 0.7) !important;
+    }
+  }
+
+  .header-title {
+    background: rgba(42, 57, 68, 0.7) !important;
+  }
+
+  .info_area {
+    &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.7) !important;
+    }
+  }
+
+  .info_area2 {
+    &.gy, &.wh, &.ye, &.re, &.bl, &.or, &.gr, &.pu, &.na {
+      background: rgba(0, 0, 0, 0.7) !important;
+    }
+  }
+
+  .count_box3 {
+    background: rgba(0, 43, 53, 0.7) !important;
+  }
+
+  .count_box2 .left_box {
+    background: rgba(21, 83, 119, 0.7) !important;
+  }
+
+  .count_box3, .count_box4 {
+    background: rgba(0, 43, 53, 0.7) !important;
+  }
+
+  .count_box5 .left_box, .count_box_under .left_box {
+    background: rgba(44, 51, 64, 0.7) !important;
+  }
+
+  .table_count_box_area, .table_count_box_area2 {
+    background: rgba(0, 43, 53, 0.7);
+  }
+
+  .table_count_box_area3 {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .table_count_box_area4 {
+    background: rgba(0, 43, 53, 0.7);
+  }
+
+  .table_count_box_area2 .left_box {
+    background: rgba(21, 83, 119, 0.7);
+  }
+
+  .attack_box {
+    .attack_name {
+      background: rgba(0, 33, 50, 1);
+    }
+
+    .attack_count {
+      background: rgba(0, 33, 50, 0.8);
+    }
+  }
+}
+
+.opacity00 .process_box {
+  background: rgba(22, 27, 32, 0.2);
+}
+
+.opacity10 .process_box {
+  background: rgba(22, 27, 32, 0.3);
+}
+
+.opacity20 .process_box {
+  background: rgba(22, 27, 32, 0.4);
+}
+
+.opacity30 .process_box {
+  background: rgba(22, 27, 32, 0.5);
+}
+
+.opacity40 .process_box {
+  background: rgba(22, 27, 32, 0.6);
+}
+
+.opacity50 .process_box {
+  background: rgba(22, 27, 32, 0.7);
+}
+
+.opacity60 .process_box {
+  background: rgba(22, 27, 32, 0.8);
+}
+
+.opacity70 .process_box {
+  background: rgba(22, 27, 32, 0.9);
+}

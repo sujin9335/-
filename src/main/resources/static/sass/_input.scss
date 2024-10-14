@@ -1,0 +1,145 @@
+
+.input-group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+
+.input-group-append {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 1;
+
+  .btn:focus {
+    z-index: 3;
+  }
+}
+
+.input-group-prepend {
+  margin-right: -1px;
+}
+
+.input-group-append {
+  margin-left: -1px;
+}
+
+.input-group-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: .45rem .9rem;
+  margin-bottom: 0;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a8b5c3;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #353842;
+  border: 1px solid #495561;
+  border-radius: .2rem;
+}
+
+
+.input-group-addon {
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #f8f8f8;
+  text-align: center;
+  background-color: #353841;
+  border: 1px solid #3d4552;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+}
+
+.input-group-addon2 {
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #f8f8f8;
+  text-align: center;
+  background-color: #353841;
+  border: 1px solid #5d626f;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+.input-group > .form-control2 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+
+
+
+.filebox {
+  margin: 5px 10px;
+
+  input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #a8b5c3;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #353842;
+    cursor: pointer;
+    border: 1px solid #53596b;
+    border-bottom-color: #666d84;
+    border-radius: .25em;
+    margin: 0;
+  }
+
+  .upload-name {
+    display: inline-block;
+    padding: .5em .75em;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #191c23;
+    border: 1px solid #393d48;
+    border-bottom-color: #373b46;
+    border-radius: .25em;
+    color: #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: calc(100% - 70px);
+  }
+}
